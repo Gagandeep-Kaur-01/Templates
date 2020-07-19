@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Sign In</title>
+    <title>Sign Up</title>
 	 <meta charset="utf-8">
      <meta name="viewport" content="width=device-width, initial-scale=1">
     
@@ -11,7 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
    
-    <link rel="stylesheet" href="signIn.css">
+    <link rel="stylesheet" href="signUp.css">
 
 </head>
   
@@ -33,14 +33,15 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="main.html">Account</a>
-						<a class="dropdown-item" href="signUp.html">Sign Up</a>
-                        
+                        <a class="dropdown-item" href="signIn.html">Sign In</a>
+						
                         
                     </div>
                 </li>
               </ul>
 			</div>
 		</nav>	
+
 
 
 <div class="container mt-5">
@@ -53,12 +54,12 @@
 
                 <div class="card-header">
 
-                     Sign In
+                     Sign Up
                 </div>
 
                 <div class="card-body">
 
-                    <form action="/user/signin" method="post">
+                    <form action="/user/signup" method="post">
                       
                       <div class="form-group">
 
@@ -71,12 +72,10 @@
                          <input type="password" name="password" placeholder="Password" class="form-control">
                       </div> <br>
 
-                      <button type="submit" class="btn btn-outline-primary">Sign In</button>
+                      <button type="submit" class="btn btn-outline-primary">Sign Up</button>
                     <form>
                 </div>
             </div>
         </div>
     </div>
 </div>
- </body>
-</html>
